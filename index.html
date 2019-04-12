@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Comenzando con la fotografía</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos1.css">
+  </head>
+  <style>
+    #contenido {
+      width: 100%;
+      height: 100%;
+      border: 2px solid;
+      margin: 0 auto;
+      background-color: #DBFFF1;
+      text-align: center;
+      transition: background 1s;
+      animation: mianimacion 4s;
+
+    }
+
+    @-webkit-keyframes mianimacion{
+
+      0%{
+        opacity: 0.50;
+        margin-top: 150%;
+      }
+      60% {
+        opacity: 0.75;
+        margin-top: -5%;
+      }
+
+      100% {
+        opacity: 1;
+        margin-top: 0%;
+      }
+    }
+
+  </style>
+  <body>
+    <div id="contenido">
+    <header id="banner" class="body">
+      <div id="Titulocabecera">
+      <h1>Comenzando con la fotografía</h1>
+      </div>
+      <nav id="menucabecera">
+        <ul>
+          <li class="active"><a href="index.html"> Inicio</a> </li>
+          <li> <a href="paisaje/paisaje.html"> Paisajes</a></li>
+          <li><a href="retratos/retratos.html"> Retratos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <aside id="featured" class="body">
+      <article>
+        <h1>Nevado</h1>
+        <img src="img/nevado.png" alt="adaptativa-porcentaje">
+      </article>
+
+      <article class="adaptativa-porcentaje-1">
+        <h1>Paraisos Naturales</h1>
+        <figure>
+          <a id="prioritario1" title="Rio" href="paisaje/paisaje.html"><img src="img/rio.png" alt="Rio" width="40%"></a>
+          <a id="prioritario" title="chingaza" href="retratos/retratos.html"><img src="img/chingaza2.jpg" alt="Chingaza" width="29%"></a>
+        </figure>
+      </article>
+    </aside>
+    <footer>
+      <aside class="prioritario2">
+      <div class="divi1">
+        <h3><em>Contacto</em></h3>
+        <h5> victor.ochoa@ correo .icesi.edu.co</h5>
+        <h4>Carrera 27a Numero 35 55 </h4>
+        <h4>Telefon 2853514</h4>
+      </div>
+      <div class="divi3">
+        <h3>Redes Sociales</h3>
+        <a href="https://twitter.com/vomp0896"> <img src="img/face.png" alt="Icono facebook" title="Ir a Facebook"></a>
+        <a href="https://twitter.com/vomp0896"> <img src="img/twitter.png" alt="Icono twitter" title="Ir a Twitter"> </a>
+        <a href="https://twitter.com/vomp0896"> <img src="img/insta.png" alt="Icono Instagram"title="Ir a Instagram"> </a>
+      </div>
+      <div class="divi2">
+        <p> <img src="img/copy.png" alt="Copyright"> <strong>Términos y condiciones 2019</strong> </p>
+        <h4>Conoce nuestra politica de términos y condiciones</h4>
+      </div>
+
+      <div class="divi4">
+        <h3>Trabaja con Nosotros</h3>
+      </div>
+
+
+    </aside>
+
+    </footer>
+    </div>
+  </body>
+</html>
