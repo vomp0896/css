@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>Comenzando con la fotografía</title>
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/estilos1.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
   </head>
   <style>
     #contenido {
@@ -16,7 +16,7 @@
       background-color: #DBFFF1;
       text-align: center;
       transition: background 1s;
-      animation: mianimacion 4s;
+      animation: mianimacion 2s;
 
     }
 
@@ -36,25 +36,29 @@
         margin-top: 0%;
       }
     }
+    #contenedor {
+      background-color: red;
+    }
 
   </style>
   <body>
     <div id="contenido">
-    <header id="banner" class="body">
+    <header>
       <div id="Titulocabecera">
       <h1>Comenzando con la fotografía</h1>
       </div>
       <nav id="menucabecera">
-        <ul>
-          <li class="active"><a href="index.html"> Inicio</a> </li>
-          <li> <a href="paisaje/paisaje.html"> Paisajes</a></li>
-          <li><a href="retratos/retratos.html"> Retratos</a></li>
-        </ul>
+      <div id"contentmenu">
+          <a href="index.html"> Inicio</a> </li>
+          <a href="paisaje/paisaje.html"> Paisajes</a></li>
+          <a href="retratos/retratos.html"> Retratos</a></li>
+      </div>
       </nav>
+
     </header>
 
     <aside id="featured" class="body">
-      <article>
+      <article class="adaptativa3019">
         <h1>Nevado</h1>
         <img src="img/nevado.png" alt="adaptativa-porcentaje">
       </article>
@@ -94,6 +98,6 @@
     </aside>
 
     </footer>
-    </div>
+    
   </body>
 </html>

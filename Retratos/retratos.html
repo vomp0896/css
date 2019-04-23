@@ -5,19 +5,55 @@
     <meta name="viewport" content="width=device-width,user-scable=no">
     <title>Comenzando con la fotografía</title>
     <link rel="stylesheet" href="../css/estilos.css">
-    <link rel="stylesheet" href="../css/estilos1.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
   </head>
+  <style>
+    #contenido {
+      width: 100%;
+      height: 100%;
+      border: 2px solid;
+      margin: 0 auto;
+      background-color: #DBFFF1;
+      text-align: center;
+      transition: background 1s;
+      animation: mianimacion 2s;
+
+    }
+
+    @-webkit-keyframes mianimacion{
+
+      0%{
+        opacity: 0.50;
+        margin-top: 150%;
+      }
+      60% {
+        opacity: 0.75;
+        margin-top: -5%;
+      }
+
+      100% {
+        opacity: 1;
+        margin-top: 0%;
+      }
+    }
+
+  </style>
+
   <body>
-    <header id="banner" class="body">
-      <h1>Comenzando con la fotografía</h1>
-      <nav>
-        <ul>
-          <li class="active"><a href="../index.html"> Inicio</a> </li>
-          <li> <a href="../paisaje/paisaje.html"> Paisajes</a></li>
-          <li><a href="../retratos/retratos.html"> Retratos</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div id="contenido">
+      <header>
+        <div id="Titulocabecera">
+        <h1>Comenzando con los Retratos</h1>
+        </div>
+        <nav id="menucabecera">
+        <div id"contentmenu">
+            <a href="../index.html"> Inicio</a> </li>
+            <a href="../paisaje/paisaje.html"> Paisajes</a></li>
+            <a href="../retratos/retratos.html"> Retratos</a></li>
+        </div>
+        </nav>
+
+      </header>
     <aside id="featured" class="body">
     <div class="section1">
       <img id="Retrato1" src="../img/chingaza2.jpg" alt="Retrato1" width="30%">
@@ -53,9 +89,10 @@
       <h3>Trabaja con Nosotros</h3>
     </div>
 
-
   </aside>
+
 
   </footer>
 </body>
+
 </html>

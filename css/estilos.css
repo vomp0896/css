@@ -1,87 +1,101 @@
-@media screen and (max-width:900px) {
-  img {
-    width: 100%;
-  }
-  #prioritario1{
-    width: 100%;
-  }
-  #prioritario2{
-    width: 100%;
-   }
-
-   #contenido {
-     width: 100%;
-   }
-
-   #menucabecera{
-     width: 15px;
-   }
 
 
-  }
+body {
+  background-color: #02010A;
+  font-family: 'Dancing Script';
+}
+
+#contenido{
+  margin:0 auto;
+  width:900px;
+  background-color: white;
+
+}
 
 header {
-  background-color: #5b7989;
+  width:100%;
+  min-height:100px;
+  display:flex;
+  flex-flow: row wrap;
+  color: white;
+
+}
+
+
+
+
+.adaptativa3019 {
+  background-color: #82c3a6;
   margin: 0 auto;
-  padding: 2.5em 0 0 0;
-  text-align:left;
-  color:white;
-  box-shadow: 6px 5px 10px 0 rgba(0,0,0,2);
-  border-radius: 10px;
-
-}
-
-#banner nav {
-  background: white;
-  font-size: 1.8em;
-  height: 40px;
-  line-height: 20px;
-  margin: 0 auto 2em auto;
+  padding: 1em 0 0 0;
   text-align:center;
-  border-radius: 5px;
-  padding-top:25px;
-  width: 100%;
-  font-size: 15pt;
+  color:red;
+  box-shadow: 6px 5px 10px 0 rgba(0,0,0,2);
+  border-radius: 1px;
+
 
 
 
 }
 
-#banner nav ul {list-style: none; margin: 0 auto;width: 500px;}
-#banner nav li {float:left; display: block; margin: 0;}
-
-#banner nav a:link, #banner nav a:visited{
-  color: #5b7989 ;
-  display:inline-block;
-  height:10px;
-  padding: 5px 1.5em;
-  text-decoration: none;
+.adaptativa-porcentaje-1{
+  background-color: #d5c75f;
+  margin: 0 auto;
+  padding: 1em 0 0 0;
+  text-align:center;
+  color:black;
+  box-shadow: 6px 5px 10px 0 rgba(0,0,0,2);
+  border-radius: 1px;
 }
+
+
+
+
+
+#menucabecera {
+  width:50%;
+  background-color: #5b7989;
+  padding-top:35px;
+
+
+}
+
+#menucabecera a{
+margin-left: auto;
+padding-right: 15px;
+color: white;
+font-size: 25px;
+
+ }
 
 #Titulocabecera {
-  width: 70%;
- text-indent: 15px;
-}
-#menuCabecera{
- padding-top:25px;
- width: 30%;
- font-size: 18pt;
+    width:50%;
+    background-color: #5b7989;
+    color: white;
 }
 
-#featured  {
+#contentmenu{
+float:right;
+
+}
+
+
+#contenedor  {
   text-align: center;
-  background: #82c3a6 ;
+  background: white ;
   margin: 3px;
-  padding: 20px;
+  padding: 2px;
   font-size: 50px;
   color: white;
 }
+
 .adaptativa-porcentaje{
   width: 90%;
 }
 #adaptativa-porcentaje-1{
   text-align:center;
   width: 100%;
+  background-color: #d5c75f;
 }
 
 }
@@ -103,40 +117,33 @@ header {
 }
 .divi3 img{
   width: 30px;
-  padding: 5px;
-  margin: 10px auto;
   display: inline-flex;
 }
 
 .prioritario2 {
-  display: flex;
-  flex-direction: row;
-  text-align: center;
+  width:100%;
+  min-height:100px;
+  display:flex;
+  flex-flow: row wrap;
+  border-radius: 10px;
 
 }
 
 .divi1 {
   width: 25%;
-  margin: 2px;
-  padding: 3px;
-  border-radius: 10px;
   background-color: #C6d5c5;
+  border-radius: 10px;
 }
 .divi3 {
   width: 25%;
-  margin: 1px;
-  padding: 20px;
-  border-radius:10px;
   background-color: #C6d5c5;
   align-items: center;
+
 
 }
 
 .divi2 {
   width: 25%;
-  margin: 2px;
-  padding: 3px;
-  border-radius: 10px;
   background-color: #C6d5c5;
 }
 
@@ -146,10 +153,14 @@ header {
 
 .divi4 {
   width: 25%;
-  margin: 2px;
-  padding: 3px;
-  border-radius: 10px;
   background-color: #C6d5c5;
+  border-radius: 10px
+}
+
+footer {
+  width: 100%;
+  background-color: #C6d5c5;
+  border-radius: 100px;
 }
 
 #Retrato1 {
@@ -191,3 +202,49 @@ header {
 #paisaje3 {
   filter: sepia(90%);
 }
+
+@media screen and (max-width:900px) {
+  img {
+    width: 100%;
+  }
+  #prioritario1{
+    width: 100%;
+  }
+  #prioritario2{
+    width: 100%;
+   }
+
+   #contenido, #Titulocabecera, #menucabecera{
+   width: 100%;
+   }
+
+   #Titulocabecera,#contentmenu{
+   text-align: center;
+   float:none;
+   }
+   .divi1 {
+     width: 100%;
+     background-color: #C6d5c5;
+     border-radius: 10px;
+   }
+   .divi3 {
+     width: 100%;
+     background-color: #C6d5c5;
+     align-items: center;
+
+
+   }
+
+   .divi2 {
+     width: 100%;
+     background-color: #C6d5c5;
+   }
+
+   
+
+   .divi4 {
+     width: 100%;
+     background-color: #C6d5c5;
+     border-radius: 10px
+
+ }
